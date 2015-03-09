@@ -1,4 +1,10 @@
-TestIn: {description: '', git: 'https://github.com/sugarsweetrobotics/TestIn_py.git',
-  hash: 81d1bf9629f52a3450a2985716f426918854b301}
-TestOut: {description: '', git: 'https://github.com/sugarsweetrobotics/TestOut_py.git',
-  hash: d74aa6577c5585341ff21b33b483b143d62406b8}
+TestIn_py:
+  description: Default Description
+  hash: 52fe876e7aa328637473eb67dc43ad800b8851d6
+  type: git
+  url: https://github.com/sugarsweetrobotics/TestIn_py.git
+TestOut_py:
+  description: Default Description
+  hash: 7e8413c61e72391e1fc5fb73a225e5faf4a3069e
+  type: git
+  url: https://github.com/sugarsweetrobotics/TestOut_py.git
