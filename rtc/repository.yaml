@@ -1,10 +1,10 @@
 TestIn_py:
   description: Default Description
-  hash: 52fe876e7aa328637473eb67dc43ad800b8851d6
-  type: git
-  url: https://github.com/sugarsweetrobotics/TestIn_py.git
+  git: https://github.com/sugarsweetrobotics/TestIn_py.git
+  hash: ae4980060274fb2519c93e5c33af450bd37f7eec
+  repo_name: TestIn_py
 TestOut_py:
   description: Default Description
-  hash: 7e8413c61e72391e1fc5fb73a225e5faf4a3069e
-  type: git
-  url: https://github.com/sugarsweetrobotics/TestOut_py.git
+  git: https://github.com/sugarsweetrobotics/TestOut_py.git
+  hash: 84b0cc7a68bd3e759fb7fcb0de07d8b0e20354ff
+  repo_name: TestOut_py
