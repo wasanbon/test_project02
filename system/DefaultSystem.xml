@@ -1,30 +1,32 @@
 <?xml version="1.0" ?>
-<rts:RtsProfile rts:abstract="" rts:creationDate="2016-02-16T10:28:49" rts:id="RTSystem:SSR:test_project02:1.0.3" rts:updateDate="2016-02-16T10:28:49" rts:version="0.2" xmlns:rts="http://www.openrtp.org/namespaces/rts" xmlns:rtsExt="http://www.openrtp.org/namespaces/rts_ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <rts:Components rts:compositeType="None" rts:id="RTC:Sugar Sweet Robotics:Test:TestIn_py:1.0.2" rts:instanceName="TestIn_py0" rts:isRequired="true" rts:pathUri="localhost:2809/TestIn_py0.rtc" rtsExt:visible="true">
-        <rts:DataPorts rts:name="in0" rtsExt:visible="true"/>
+<rts:RtsProfile xmlns:rts="http://www.openrtp.org/namespaces/rts" xmlns:rtsExt="http://www.openrtp.org/namespaces/rts_ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rts:id="RTSystem:Sugar Sweet Robotics:test_project02:1.2.2" rts:abstract="" rts:creationDate="2021-09-29T16:12:33" rts:updateDate="2021-09-29T16:12:33" rts:version="0.2">
+    <rts:Components xsi:type="rtsExt:component_ext" rts:id="RTC:Sugar Sweet Robotics:Test:TestOut_py:1.2.2" rts:pathUri="localhost:2809/TestOut_py0.rtc" rts:instanceName="TestOut_py0" rts:compositeType="None" rts:isRequired="true" rtsExt:visible="true">
+        <rts:DataPorts xsi:type="rtsExt:dataport_ext" rts:name="out" rtsExt:visible="true"/>
         <rts:ConfigurationSets rts:id="default"/>
-        <rts:ExecutionContexts rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0"/>
-        <rtsExt:Location rtsExt:direction="DOWN" rtsExt:height="0" rtsExt:width="0" rtsExt:x="0" rtsExt:y="0"/>
-        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e300000000001000000000000006800000001010200100000003139322e3136382e3132382e31393400fb0a00000e000000fe387bc25600001742000000000100000200000000000000080000000100000000545441010000001c00000001000000010001000100000001000105090101000100000009010100"/>
+        <rts:ExecutionContexts xsi:type="rtsExt:execution_context_ext" rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0"/>
+        <rtsExt:Location rtsExt:x="0" rtsExt:y="0" rtsExt:height="0" rtsExt:width="0" rtsExt:direction="down"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000064000000010102000b00000031302e32302e39312e370000fb0a00000e000000fea11154610000822e000000000100000200000000000000080000000100000000545441010000001c00000001000000010001000100000001000105090101000100000009010100"/>
     </rts:Components>
-    <rts:Components rts:compositeType="None" rts:id="RTC:Sugar Sweet Robotics:Test:TestOut_py:1.0.2" rts:instanceName="TestOut_py0" rts:isRequired="true" rts:pathUri="localhost:2809/TestOut_py0.rtc" rtsExt:visible="true">
-        <rts:DataPorts rts:name="out0" rtsExt:visible="true"/>
+    <rts:Components xsi:type="rtsExt:component_ext" rts:id="RTC:Sugar Sweet Robotics:Test:TestIn_py:1.2.2" rts:pathUri="localhost:2809/TestIn_py0.rtc" rts:instanceName="TestIn_py0" rts:compositeType="None" rts:isRequired="true" rtsExt:visible="true">
+        <rts:DataPorts xsi:type="rtsExt:dataport_ext" rts:name="in" rtsExt:visible="true"/>
         <rts:ConfigurationSets rts:id="default"/>
-        <rts:ExecutionContexts rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0"/>
-        <rtsExt:Location rtsExt:direction="DOWN" rtsExt:height="0" rtsExt:width="0" rtsExt:x="0" rtsExt:y="0"/>
-        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e300000000001000000000000006800000001010200100000003139322e3136382e3132382e31393400fb0a00000e000000fe387bc25600001742000000000500000200000000000000080000000100000000545441010000001c00000001000000010001000100000001000105090101000100000009010100"/>
+        <rts:ExecutionContexts xsi:type="rtsExt:execution_context_ext" rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0"/>
+        <rtsExt:Location rtsExt:x="0" rtsExt:y="0" rtsExt:height="0" rtsExt:width="0" rtsExt:direction="down"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000064000000010102000b00000031302e32302e39312e370000fb0a00000e000000fea11154610000822e000000000500000200000000000000080000000100000000545441010000001c00000001000000010001000100000001000105090101000100000009010100"/>
     </rts:Components>
-    <rts:DataPortConnectors rts:connectorId="96f842ee-d44c-11e5-9241-7831c1d5809c" rts:dataType="IDL:RTC/TimedLong:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="out0in0" rts:pushInterval="0.0" rts:subscriptionType="new" rtsExt:visible="true">
-        <rts:sourceDataPort rts:componentId="RTC:Sugar Sweet Robotics:Test:TestOut_py:1.0.2" rts:instanceName="TestOut_py0" rts:portName="TestOut_py0.out0">
+    <rts:DataPortConnectors xsi:type="rtsExt:dataport_connector_ext" rts:connectorId="7b99395e-20f4-11ec-86e2-6bb7379f5750" rts:name="outin" rts:dataType="IDL:RTC/TimedLong:1.0" rts:interfaceType="corba_cdr" rts:dataflowType="push" rts:subscriptionType="new">
+        <rts:sourceDataPort rts:componentId="RTC:Sugar Sweet Robotics:Test:TestOut_py:1.2.2" rts:instanceName="TestOut_py0" xsi:type="rtsExt:target_port_ext" rts:portName="TestOut_py0.out">
             <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost:2809/TestOut_py0.rtc"/>
         </rts:sourceDataPort>
-        <rts:targetDataPort rts:componentId="RTC:Sugar Sweet Robotics:Test:TestIn_py:1.0.2" rts:instanceName="TestIn_py0" rts:portName="TestIn_py0.in0">
-            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost:2809/TestIn_py0.rtc"/>
+        <rts:targetDataPort rts:componentId="RTC:Sugar Sweet Robotics:Test:TestIn_py:1.2.2" rts:instanceName="TestIn_py0" xsi:type="rtsExt:target_port_ext" rts:portName="TestIn_py0.in">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost:2809/manager_py.mgr/TestIn_py0.rtc"/>
         </rts:targetDataPort>
         <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
-        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
-        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLong:1.0"/>
         <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
         <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLong:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+        <rtsExt:Properties rtsExt:name="dataport.outport"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
     </rts:DataPortConnectors>
 </rts:RtsProfile>
